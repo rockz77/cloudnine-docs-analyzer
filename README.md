@@ -16,12 +16,12 @@ Run the following commands to install and run the application:
 
 The application is a barebones react application with minimal styling. Because of the time constraint, the following have NOT been implemented in the application:
 
-- Deep modular components
-- Custom Hooks and State Management (Context API)
-- CSS Preprocessor (SASS or Styled Components)
-- Deep styling and UI/UX design
-- Routing
-- Standard page layout (header, footer, menu, etc)
-- REST or GraphQL APIs (Node/Express)
-- Authentication / Login / Security
-- No utility functions and methods
+- No Deep modular components
+- No Custom Hooks and State Management (Context API)
+- No CSS Preprocessor (SASS or Styled Components)
+- No Deep styling and UI/UX design
+- No Routing
+- No Standard page layout (header, footer, menu, etc)
+- No REST or GraphQL APIs (Node/Express)
+- No Authentication / Login / Security
+- No Utility functions and methods
