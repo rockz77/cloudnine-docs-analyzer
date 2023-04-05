@@ -33,3 +33,4 @@ Because of the time constraint, the following have NOT been implemented in the a
 - No REST or GraphQL APIs (Node/Express)
 - No Authentication / Login / Security
 - No Utility functions and methods
+- No progress bar / loader
