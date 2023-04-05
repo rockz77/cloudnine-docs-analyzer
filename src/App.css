@@ -1,0 +1,43 @@
+body {
+  justify-content: center;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 80%;
+  width: 90%;
+  border-radius: 8px;
+  background-color: #333030;
+  position: absolute;  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.container-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.data-container {
+  text-align: start;
+  margin-top: 40px;
+  background-color: #475f72;
+  border-radius: 8px;
+  padding: 40px
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+}
