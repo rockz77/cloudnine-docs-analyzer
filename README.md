@@ -24,3 +24,4 @@ The application is a barebones react application with minimal styling. Because o
 - Standard page layout (header, footer, menu, etc)
 - REST or GraphQL APIs (Node/Express)
 - Authentication / Login / Security
+- No utility functions and methods
