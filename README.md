@@ -14,7 +14,15 @@ Run the following commands to install and run the application:
 
 *Download and have installed the latest version of NodeJS
 
-The application is a barebones react application with minimal styling. Because of the time constraint, the following have NOT been implemented in the application:
+The application is a barebones react application with minimal styling. The following functionality is included in the application:
+
+- User can select a local folder(s) from their computer/laptop. The folder can contain sub-folders.
+- The application will aggregate all files contained within the selected folder(s) to include all metadata and file information.
+- The application will render reporting data tables containing all of the file/folder information.
+- The data tables contain export functionality to exports the data/reporting to a CSV file or to print.
+- Full data table functionality is included in the application that includes pagination, filtering, sorting, etc. 
+
+Because of the time constraint, the following have NOT been implemented in the application:
 
 - No Deep modular components
 - No Custom Hooks and State Management (Context API)
