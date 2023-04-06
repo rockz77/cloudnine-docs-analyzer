@@ -1,9 +1,9 @@
 import React, {useCallback, useEffect, useState} from 'react'
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button'
+import IconButton from '@mui/material/IconButton'
+import Stack from '@mui/material/Stack'
 import DataGrid from '../components/DataGrid'
-import prettyBytes from 'pretty-bytes';
+import bytesConverter from '../utils/utilities'
 
 declare module 'react' {
     interface InputHTMLAttributes<T> extends HTMLAttributes<T> {
@@ -52,7 +52,7 @@ const FolderSelector: React.FC = () => {
             id: i+1,
             c1: files[i].name,
             c2: files[i].type,
-            c3: prettyBytes(files[i].size),
+            c3: bytesConverter(files[i].size),
             c4: files[i].lastModifiedDate,
             c5: files[i].webkitRelativePath
         }
@@ -86,7 +86,13 @@ const FolderSelector: React.FC = () => {
           <Stack direction="row" alignItems="center" spacing={2}>
             <Button variant="contained" component="label">
               Select Folder
-              <input hidden type="file" id="folderSelector" placeholder="Select Folder" webkitdirectory="true" multiple onChange={(e: any) => inputHandler(e)} />
+              <input 
+                hidden 
+                type="file" 
+                id="folderSelector" 
+                placeholder="Select Folder" 
+                webkitdirectory="true" 
+                multiple onChange={(e: any) => inputHandler(e)} />
             </Button>
             <IconButton color="primary" aria-label="upload picture" component="label">
               <input hidden accept="image/*" type="file" />
