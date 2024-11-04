@@ -71,7 +71,7 @@ CloudNine Docs Analyzer
 - **Docker Desktop** (for running as a Docker container)
 
 ### Installation
-1. Unzip the file. From within the root folder, run the following command in a command prompt:
+Unzip the file. From within the root folder, run the following command in a command prompt:
    ```
    npm i
 
