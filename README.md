@@ -76,16 +76,16 @@ CloudNine Docs Analyzer
 - **Docker/Docker Desktop** (for running locally as a Docker container)
 
 ### Installation
-Unzip the file. From within the root folder, run the following command in a command prompt:
+Unzip the file. From within the root folder, run the following command in a command prompt, from the root:
    ```
    npm i
    ```
 ### Running the Application
-To run the application locally in dev mode, run the following command in a command prompt:
+To run the application locally in dev mode, run the following command in a command prompt, from the root:
    ```
    npm run dev
    ```
-To run the application locally using Docker, run the following commands in a command prompt:
+To run the application locally using Docker, run the following commands in a command prompt, from the root:
 1. Build the Docker image:
    ```
    docker build -t apple-crop-api .
@@ -109,7 +109,7 @@ To run the application locally using Docker, run the following commands in a com
 
 ### Testing Out the API
 The API exposes the following main endpoint:
-- **POST //simulate-yield**
+- **POST /simulate-yield**
 
 Actual local URL for the API will be: **http://localhost:3000/simulate-yield**
 
@@ -133,7 +133,7 @@ In the POST request, an example request body will look like the following:
    ```
 
 ### Unit Testing
-To run the unit tests and see the coverage, run the following command:
+To run the unit tests and see the coverage, run the following command from the root:
    ```
    npm test --coverage
    ```
