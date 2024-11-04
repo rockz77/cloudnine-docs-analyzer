@@ -74,5 +74,6 @@ CloudNine Docs Analyzer
 Unzip the file. From within the root folder, run the following command in a command prompt:
    ```
    npm i
+   ```
 
 ### Running the Application
